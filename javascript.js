@@ -3,7 +3,7 @@ let dimension = 16;
 let square = dimension * dimension;
 //if there is no input on "Enter a Dimension" the default is 16 x 16
 //if there is an input then generate a boxes with specified dimensions
-const grid = document.querySelector('.grid');
+const grid = document.querySelector('.content-grid');
 
 for (let i = 0; i < square; i++) {
     const cell  = document.createElement('div');
