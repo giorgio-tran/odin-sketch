@@ -3,6 +3,8 @@ let dimension = 16;
 let square = dimension * dimension;
 //if there is no input on "Enter a Dimension" the default is 16 x 16
 //if there is an input then generate a boxes with specified dimensions
+    //change the grid-template-columns and grid-template-rows parameters into 700/#number of rows
+
 const grid = document.querySelector('.grid');
 
 for (let i = 0; i < square; i++) {
@@ -11,6 +13,8 @@ for (let i = 0; i < square; i++) {
     grid.append(cell);
 
 }
+
+//when clicking and holding on a box, change its color 
 
 /* Clear button changes the colors in all of the boxes into white */
 
