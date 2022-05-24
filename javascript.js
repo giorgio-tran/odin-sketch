@@ -6,7 +6,7 @@ let square = dimension * dimension;
 const grid = document.querySelector('.grid');
 
 for (let i = 0; i < square; i++) {
-    const cell  = document.createElement('cell');
+    const cell  = document.createElement('div');
     cell.classList.add('grid-cell');
     grid.append(cell);
 
